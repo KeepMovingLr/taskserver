@@ -1,0 +1,22 @@
+<config>
+    <DBConfig>
+        <MaxOpenConns>20000</MaxOpenConns>
+        <MaxIdleConns>10000</MaxIdleConns>
+        <DBName>User</DBName>
+        <DBUser>root</DBUser>
+        <DBPwd>rootroot</DBPwd>
+        <DBHost>127.0.0.1:3306</DBHost>
+    </DBConfig>
+    <LocalCacheConfig>
+        <LocalCacheSize>100</LocalCacheSize>
+    </LocalCacheConfig>
+    <TCPConfig>
+        <Port>:7777</Port>
+        <!-- ms -->
+        <ReadWaitTime>3600000</ReadWaitTime>
+        <WriteWaitTime>5000</WriteWaitTime>
+    </TCPConfig>
+    <RedisConfig>
+        <Port>:6379</Port>
+    </RedisConfig>
+</config>
