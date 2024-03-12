@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/KeepMovingLr/taskserver/cache"
+	"github.com/KeepMovingLr/taskserver/conf"
+	"github.com/KeepMovingLr/taskserver/dao"
+	"github.com/KeepMovingLr/taskserver/server"
 	"os"
-	"ray.li/entrytaskserver/cache"
-	"ray.li/entrytaskserver/conf"
-	"ray.li/entrytaskserver/dao"
-	"ray.li/entrytaskserver/server"
 	"runtime/pprof"
 )
 

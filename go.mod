@@ -1,4 +1,4 @@
-module ray.li/entrytaskserver
+module github.com/KeepMovingLr/taskserver
 
 go 1.20
 

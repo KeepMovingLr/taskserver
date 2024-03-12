@@ -1,8 +1,8 @@
 package dao
 
 import (
+	"github.com/KeepMovingLr/taskserver/model"
 	_ "github.com/go-sql-driver/mysql"
-	"ray.li/entrytaskserver/model"
 )
 
 // Query a single user by userName

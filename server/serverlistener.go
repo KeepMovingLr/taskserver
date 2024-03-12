@@ -2,12 +2,12 @@ package server
 
 import (
 	"errors"
+	"github.com/KeepMovingLr/taskserver/dto"
+	"github.com/KeepMovingLr/taskserver/utils"
 	"io"
 	"log"
 	"net"
 	"os"
-	"ray.li/entrytaskserver/dto"
-	"ray.li/entrytaskserver/utils"
 	"sync"
 	"time"
 )

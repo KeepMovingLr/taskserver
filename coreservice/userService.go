@@ -2,11 +2,11 @@ package coreservice
 
 import (
 	"fmt"
-	redisconn "ray.li/entrytaskserver/cache"
-	"ray.li/entrytaskserver/constant"
-	"ray.li/entrytaskserver/dao"
-	"ray.li/entrytaskserver/dto"
-	"ray.li/entrytaskserver/utils"
+	redisconn "github.com/KeepMovingLr/taskserver/cache"
+	"github.com/KeepMovingLr/taskserver/constant"
+	"github.com/KeepMovingLr/taskserver/dao"
+	"github.com/KeepMovingLr/taskserver/dto"
+	"github.com/KeepMovingLr/taskserver/utils"
 	"strings"
 )
 

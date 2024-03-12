@@ -1,9 +1,9 @@
 package server
 
 import (
-	"ray.li/entrytaskserver/constant"
-	"ray.li/entrytaskserver/coreservice"
-	"ray.li/entrytaskserver/dto"
+	"github.com/KeepMovingLr/taskserver/constant"
+	"github.com/KeepMovingLr/taskserver/coreservice"
+	"github.com/KeepMovingLr/taskserver/dto"
 )
 
 var HandlerMap = make(map[string]HandMethod)

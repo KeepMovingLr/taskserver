@@ -1,12 +1,12 @@
 package test
 
 import (
-	"ray.li/entrytaskserver/cache"
-	"ray.li/entrytaskserver/conf"
-	"ray.li/entrytaskserver/coreservice"
-	"ray.li/entrytaskserver/dao"
-	"ray.li/entrytaskserver/server"
-	"ray.li/entrytaskserver/utils"
+	"github.com/KeepMovingLr/taskserver/cache"
+	"github.com/KeepMovingLr/taskserver/conf"
+	"github.com/KeepMovingLr/taskserver/coreservice"
+	"github.com/KeepMovingLr/taskserver/dao"
+	"github.com/KeepMovingLr/taskserver/server"
+	"github.com/KeepMovingLr/taskserver/utils"
 	"testing"
 )
 
